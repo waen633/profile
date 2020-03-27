@@ -136,18 +136,21 @@ class profile extends Component {
 
      
     <Col>
-    <h5>
-  
+    
+    <h4>
       Mattayomthanbinkampangsaen
-      
-        </h5>
-        <h6>
+      </h4>
+       
+       
+<div>
+ major science-math  
 
-             major science-math  
-        </h6>
+</div>
+            
+      
      
     </Col>
-    <Col xs={6} md={4}>
+    <Col xs={6} md={3}>
     <Figure>
   <Figure.Image
   right= {0}
@@ -178,11 +181,32 @@ class profile extends Component {
     <div class='content'>
        
   
-      <p> <h3>
+      <p> 
+        
+        <Row>
+          <Col>
+          
+             <h3>
               UNIVERSITY OF PHAYAO
         </h3>
-        Bachelor Degrees. Faculty of Engineering. Computer Engineering. </p>
+        <i class="fas fa-dot-circle"></i>Bachelor Degrees.  <br/><i class="fas fa-dot-circle"></i>Faculty of Engineering.  <br/><i class="fas fa-dot-circle"></i>Computer Engineering.
+          </Col>
+          <Col xs={6} md={3}>
+    <Figure>
+  <Figure.Image
+  right= {0}
+    width={90}
+    height={100}
+   
+    src="  https://i.imgur.com/L5O9eZS.jpg"
+  /></Figure>
+    </Col>
+          </Row> </p>
+      
+      
+      
     </div>
+  
   </li>
 
   <li class='work'>
@@ -194,7 +218,24 @@ class profile extends Component {
     </div>
     <div class='content'>
       <p>
+     <Row>
+
+
+     
+      <Col>
       Find a job and leraning Frontend CSS,Backend NodeJS
+      </Col>
+      <Col xs={4} md={2}>
+    <Figure>
+  <Figure.Image
+  right= {0}
+    width={90}
+    height={150}
+   
+    src="   https://i.imgur.com/PjqKvUv.jpg"
+  /></Figure>
+    </Col>
+    </Row>
          </p>
     </div>
   </li>
