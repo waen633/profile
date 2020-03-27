@@ -8,6 +8,7 @@ import {
   Col,
   Card,
   Container,
+  Figure,
   Carousel
 } from "react-bootstrap";
 
@@ -27,7 +28,7 @@ class profile extends Component {
   render() {
     const background = localStorage.getItem("background");
     return (
-      <Container className={background === "true" ? "bg-insert" : ""} fluid={0}>
+      <Container className={background === "true" ? "bg-rias" : ""} fluid={0}>
         <Row>
           <Col xs={9} md={4}>
             <Carousel className="center ">
@@ -52,10 +53,10 @@ class profile extends Component {
                 />
 
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
+                  <h3>Work is hard but I have Money</h3>
+                  <div className="par">
+                    I do not want sex i just want a romantic love.
+                  </div>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -66,11 +67,10 @@ class profile extends Component {
                 />
 
                 <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
+                  <h3>I need Job</h3>
+                  <div className="par">
+                    Sometime you need those bad days, because it help you truly appreciate the good ones.
+                  </div>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
@@ -120,10 +120,58 @@ class profile extends Component {
 
   
            <ul id='timeline'>
-  <li class='work'>
+           <li class='work'>
     <input class='radio' id='work1' name='works' type='radio' checked></input>
     <div class="relative">
-      <label for='work1'>Study</label>
+      <label for='work1'>Study Senior High School </label>
+      <span class='date'>2013 - 2016</span>
+      <span class='circle'></span>
+    </div>
+    <div class='content'>
+       
+  
+      <p>  
+      
+      <Row>
+
+     
+    <Col>
+    <h5>
+  
+      Mattayomthanbinkampangsaen
+      
+        </h5>
+        <h6>
+
+             major science-math  
+        </h6>
+     
+    </Col>
+    <Col xs={6} md={4}>
+    <Figure>
+  <Figure.Image
+  right= {0}
+    width={120}
+    height={150}
+   
+    src="https://i.imgur.com/SmrL3Bf.jpg"
+  /></Figure>
+    </Col>
+     </Row>
+       
+        
+        </p>
+       
+    </div>
+    
+   
+  </li>
+
+
+  <li class='work'>
+    <input class='radio' id='work2' name='works' type='radio' checked></input>
+    <div class="relative">
+      <label for='work2'>Study Bachelor Degrees</label>
       <span class='date'>2016 - 2020</span>
       <span class='circle'></span>
     </div>
@@ -138,9 +186,9 @@ class profile extends Component {
   </li>
 
   <li class='work'>
-    <input class='radio' id='work2' name='works' type='radio' checked></input>
+    <input class='radio' id='work3' name='works' type='radio' checked></input>
     <div class="relative">
-      <label for='work2'>NOW</label>
+      <label for='work3'>NOW</label>
       <span class='date'>Today</span>
       <span class='circle'></span>
     </div>

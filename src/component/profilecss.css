@@ -1,12 +1,12 @@
 .bg-rias {
 	
-	background-image: url("../const/image/rias1.png");
+	background-image: url("../const/image/bg-rias.jpg");
 	height: 100%;
 	min-height: calc(100vh - calc(3.5rem + 1px));
     background-position: center top;
     background-repeat: no-repeat;
 	background-size: cover;
-	color: rgb(238, 233, 164);
+	color: rgb(22, 22, 17)
     }
     
     .cardevo {
